@@ -57,6 +57,9 @@ Rонтроль выполняется непосредственно при п�
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
+maun(){
+		F();
+}
 double Q(double X) {
 	if (X < 65) {
 		X = 6 * (sqrt(X - 65 + 1)) + 5;
