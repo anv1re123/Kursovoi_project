@@ -58,7 +58,7 @@ Rонтроль выполняется непосредственно при п�
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
-maun(){
+main(){
 		F();
 }
 double Q(double X) {
