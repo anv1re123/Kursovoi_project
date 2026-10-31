@@ -32,7 +32,7 @@ $$
 
 ## 4. Схема преобразования данных
 - $X(i) \rightarrow f(X) \rightarrow Q \rightarrow \text{CONTROL} \rightarrow \text{STATE}$
-- $Q[] \rightarrow \text{заданный интервал } [] \rightarrow \text{STATISTICS}$[cite: 2, 3]
+- $Q[] \rightarrow \text{заданный интервал } [] \rightarrow \text{STATISTICS}$
 
 ## 5. Структура программы (Каркас)
 Программа на языке Си разбита на логические функции:
