@@ -11,6 +11,7 @@ int main() {
     printf("=== МОНИТОРИНГ РЕАКТОРА ===\n\n");
     vvesti_vivesty();
     return 0;
+
 }
 
 // 1. Функция расчета индикатора Q(X)
@@ -36,6 +37,7 @@ int control(double Q_i, double Q_i1) {
         return 0; // Норма
     }
 }
+
 
 // 3. Функция считывания и обработки ввода
 void vvesti_vivesty(void) {
