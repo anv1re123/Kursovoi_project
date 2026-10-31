@@ -21,10 +21,8 @@ X + 30, & \text{при } 50 \le X < 100 \\
 $$
 
 Контроль выполняется непосредственно при поступлении каждого нового значения $Q(i)$ по схеме:
-X → f(X) → Q → CONTROL → STATE
 
-
-- $X(i) \rightarrow f(X) \rightarrow \text{Control} \rightarrow \text{State}$
+- $X(i) \rightarrow f(X) \rightarrow \text{CONTROL} \rightarrow \text{STATE}$
 
 В соответствии с **Типом В**, требуется найти максимальную серию последовательных значений, которые находятся ниже заданного порогового уровня $Q_0$.
 
