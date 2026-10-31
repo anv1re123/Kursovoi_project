@@ -9,8 +9,8 @@
 #define LIMIT_LOW 50
 #define LIMIT_MAX 100
 
-double print_titul();
-double print_result();
+void print_titul();
+void print_result();
 double calc_Q(double X);
 int control(double Q_i, double Q0);
 void statistics(void); 
@@ -23,7 +23,7 @@ int main() {
 }
 
 double calc_Q(double X) {
-    if (X < 50) {
+    if (X < LIMIT_LOW) {
         return COEFF_A * X + COEFF_B;
     }
     else if (X >= LIMIT_LOW && X < LIMIT_MAX) {
@@ -43,7 +43,7 @@ int control(double Q_i, double Q0) {
     }
 }
 
-double print_result(){
+void print_result(){
     double X;
     printf("Введите значение расхода X: ");
     if (scanf("%lf", &X) != 1) {
@@ -54,7 +54,7 @@ double print_result(){
     }
 }
 
-double print_titul() {
+void print_titul() {
     printf("================================================================\n");
     printf("  ЛИНИЯ РОЗЛИВА — МОНИТОРИНГ РАСХОДА                            \n");
     printf("  Вариант 23                                                    \n");
