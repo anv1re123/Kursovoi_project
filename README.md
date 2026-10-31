@@ -82,7 +82,7 @@ void print_titul();
 void print_result();
 double calc_Q(double X);
 int control(double Q_i, double Q0);
-void statistics(void); 
+
 
 int main() {
     setlocale(LC_ALL, "RUS");
