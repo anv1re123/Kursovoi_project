@@ -58,4 +58,6 @@ void statistics(double Q_prikol, int start, int end) {
     (void)Q_prikol;
     (void)start;
     (void)end;
+
 }
+
