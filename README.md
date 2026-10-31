@@ -24,7 +24,7 @@ $$
 X → f(X) → Q → CONTROL → STATE
 
 
-- $X(i) \rightarrow f(X) \rightarrow \text{Control} \rightarrow \text{State}
+- $X(i) \rightarrow f(X) \rightarrow \text{Control} \rightarrow \text{State}$
 
 В соответствии с **Типом В**, требуется найти максимальную серию последовательных значений, которые находятся ниже заданного порогового уровня $Q_0$.
 
